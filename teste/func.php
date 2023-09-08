@@ -1,5 +1,5 @@
 <?php
-require_once 'funcao/calculo_bis2bis.php';
+require_once 'funcao/calc.php';
 
 if (isset($_POST['btn_iniciar'])) 
 {
@@ -26,7 +26,7 @@ if (isset($_POST['btn_iniciar']))
 </head>
 
 <body>
-    <form action="funcao_bis2bis.php" method="post">
+    <form action="func.php" method="post">
 
         <h1>Pontuação Atual</h1>
         <label>Jogador 1</label><br>
